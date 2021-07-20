@@ -21,6 +21,7 @@ function setup() {
         print("connecticut")
         print("connecticut")
         print("Seattle")
+        print("Gotham")
         print("connecticut")
     // put drawing code here
 
