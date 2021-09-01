@@ -46,26 +46,21 @@ function setup() {
     // Log exciting render 5 projects.
 
     function draw() {
-<<<<<<< HEAD
-        ellipse(50, 50, 80, 80);
-        ellipse(250, 50, 80, 80);
-    
-    // put drawing code here
-=======
         background('#fff');
         ellipse(180, 70, 80, 80);
-        fill(colors[4].rgb)
+        fill(colors[0].rgb)
         ellipse(350, 50, 80, 80);
         fill(colors[1].rgb);
         ellipse(50, 150, 80, 80);
         fill(colors[2].rgb);
         ellipse(450 + w, 150, 80, 80);
         fill(colors[3].rgb);
+        ellipse(200 + w, 220, 80, 80);
+        fill(colors[4].rgb);
 
 
         if(w < 10){
             w++
         }
->>>>>>> 6bd9a2ad0aa1ef16ab2721b83973586203871b93
 
     }
