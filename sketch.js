@@ -1,6 +1,8 @@
 // Testing Snakecase compatitbility
 const AURA_RECHARGING = null;
 const SMOKE_RECHARGING = null;
+const VIDEO_GAME_RECHARGING = null;
+const VIDEO_RECHARGING = null;
 
 // Testing file link
 console.log("Welcome to P5");
@@ -32,7 +34,7 @@ function setup() {
     // put setup code here
     createCanvas(700,300);
     const tacos= [];
-    const burritos= 2;
+    const burritos= 3;
     const abogada = "bat";
     const cheeseCake = 2;
     
@@ -57,6 +59,8 @@ function setup() {
         fill(colors[3].rgb);
         ellipse(200 + w, 220, 80, 80);
         fill(colors[4].rgb);
+
+        
 
 
         if(w < 10){
