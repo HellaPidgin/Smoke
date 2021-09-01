@@ -18,10 +18,8 @@ function setup() {
     // Log exciting render 5 projects.
     function draw() {
         ellipse(50, 50, 80, 80);
-        print("connecticut")
-        print("connecticut")
-        print("Seattle")
-        print("connecticut")
+        ellipse(250, 50, 80, 80);
+    
     // put drawing code here
 
     }
