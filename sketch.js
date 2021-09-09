@@ -4,6 +4,11 @@ const SMOKE_RECHARGING = null;
 const VIDEO_GAME_RECHARGING = null;
 const VIDEO_RECHARGING = null;
 
+var SMOKE_LABELER;
+var PATTERN_QEXOCHILL
+var PATTERN_LINEARTY_RULE;
+var PATTERN_DEEP_THROAT;
+
 // Testing file link
 console.log("Welcome to P5");
 console.log("Hello World!!");
@@ -32,7 +37,7 @@ var w = 0;
 // setting up p5 dependencies
 function setup() {
     // put setup code here
-    createCanvas(700,300);
+    createCanvas(1600,900);
     const tacos= [];
     const burritos= 3;
     const abogada = "bat";
@@ -48,7 +53,7 @@ function setup() {
     // Log exciting render 5 projects.
 
     function draw() {
-        background('#fff');
+        //background('#fff');
         ellipse(180, 70, 80, 80);
         fill(colors[0].rgb)
         ellipse(350, 50, 80, 80);
@@ -57,7 +62,7 @@ function setup() {
         fill(colors[2].rgb);
         ellipse(450 + w, 150, 80, 80);
         fill(colors[3].rgb);
-        ellipse(200 + w, 220, 80, 80);
+        ellipse(mouseX, mouseY, 80, 80);
         fill(colors[4].rgb);
 
         
