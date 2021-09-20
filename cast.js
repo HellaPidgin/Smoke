@@ -6,6 +6,7 @@ const narative;
 const velocity;
 const autonomy;
 const getImpact;
+const ADD_PRIMARK;
 
 const CAST_NINJA_CLONES;
 
