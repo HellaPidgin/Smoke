@@ -63,7 +63,7 @@ function setup() {
         ellipse(450 + w, 150, 80, 80);
         fill(colors[3].rgb);
         ellipse(mouseX, mouseY, 80, 80);
-        fill(colors[4].rgb);
+        fill(colors[2].rgb);
 
         
 
